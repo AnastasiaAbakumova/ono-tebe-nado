@@ -93,12 +93,13 @@
 }
 
 .cover_title {
+  position: relative;  
   color: white;
   font-size: 100px;
   font-style: normal;
   font-family: Raleway, sans-serif;
   font-weight: 700;
-  z-index: 2;
+  z-index: 1;
   text-transform: uppercase;
   row-gap: 20px;
   letter-spacing: 0.3em;
@@ -111,6 +112,7 @@
 }
 
 .cover_aligned_text {
+  text-align: right;
   letter-spacing: 0.6em;
 }
 
@@ -122,22 +124,17 @@
 .cover_right_aligned_text {
   display: block;
   text-align: right;
-  letter-spacing: 0.6em;
 }
 
-.cover_aligned_text_AD {
-  text-align: right;
-  letter-spacing: 0.3em;
-}
 
-.cover_aligned_text_O {
+.cover_aligned_text_none {
   letter-spacing: initial;
 }
 
 .cover_description {
   display: flex;
   align-self: flex-end;
-  padding: 120px 0px 0px 29px;
+  padding: 123px 0px 0px 29px;
   align-items: center;
   justify-content: space-between;
 }
@@ -347,7 +344,7 @@
   justify-content: space-between;
   align-items: flex-start;
   width: 100%;
-  padding: 0px 50px 0px 70px;
+  padding: 0px 50px 0px 75px;
   color: #000;
 }
 
